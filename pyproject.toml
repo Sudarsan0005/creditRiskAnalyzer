@@ -4,7 +4,12 @@ version = "0.1.0"
 description = "Agent-based credit risk analyzer"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["notebook",
+"seaborn",
+"seaborn[stats]",
+"pandas",
+"matplotlib"]
+
 
 [build-system]
 requires = ["setuptools>=61.0"]
